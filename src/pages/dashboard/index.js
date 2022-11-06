@@ -2,9 +2,9 @@ import MusicCard from "../../components/card/music_card.component";
 import HeaderNav from "../../components/topNav/header/header.component";
 import Hero from "./hero/hero.page";
 import { musicData } from "../../utils/dummy";
-import { Container } from "./style.component";
+import { Container } from "./style/style.component";
 import MobileNav from "../../layout/sidebar/MobileNav";
-import "./dashboard.style.css";
+import "./style/./dashboard.style.css";
 import UserProfile from "../../components/profile";
 const Dashboard = () => {
   return (

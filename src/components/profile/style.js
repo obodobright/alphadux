@@ -12,9 +12,9 @@ export const ProfileContainer = styled.section`
   align-items: center;
 
   .profile_bg {
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 100%;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
     background: blue;
     display: flex;
     justify-content: center;

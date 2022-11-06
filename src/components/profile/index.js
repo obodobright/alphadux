@@ -6,7 +6,7 @@ const UserProfile = () => {
       <div className="profile_bg">
         <img src={profileImg} alt="" />
       </div>
-      <p className="profile_details">Hey! Aleem</p>
+      <p className="profile_details">Hey! Bright</p>
     </ProfileContainer>
   );
 };

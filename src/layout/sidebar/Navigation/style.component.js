@@ -28,6 +28,11 @@ export const NavWrapper = styled.section`
     gap: 0.7rem;
     font-weight:500;
     font-size:1rem;
+    transition:all 350ms;
+
+    &:hover{
+      color:${colors.active_text};
+    }
 
     .active {
       color: ${colors.active_text};

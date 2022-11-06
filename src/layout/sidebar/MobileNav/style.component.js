@@ -15,6 +15,6 @@ export const NavContainer = styled.nav`
     z-index: 99;
   }
   span {
-    margin: 10px;
+    padding: 0.2rem 1.7rem;
   }
 `;

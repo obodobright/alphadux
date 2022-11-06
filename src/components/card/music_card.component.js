@@ -1,7 +1,15 @@
 import { Cards } from "./style.component";
+import { gsap } from "gsap";
 const MusicCard = ({ data }) => {
+  const onEnter = ({ currentTarget }) => {
+    gsap.to(currentTarget, { scale: 1.03 });
+  };
+
+  const onLeave = ({ currentTarget }) => {
+    gsap.to(currentTarget, { scale: 1 });
+  };
   return (
-    <Cards bg={data?.bg}>
+    <Cards bg={data?.bg} onMouseEnter={onEnter} onMouseLeave={onLeave}>
       <div className="bg-background"></div>
       <div className="img_backdrop">
         <div className="img">
